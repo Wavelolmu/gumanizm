@@ -1,0 +1,55 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  background-color: #fffbf7;
+}
+
+@import url('http://allfont.ru/allfont.css?fonts=cyrvetica-extra-outline');
+@import url('https://fonts.googleapis.com/css?family=Prata&subset=cyrillic,cyrillic-ext');
+
+.top {
+  margins: 0;
+  padding: 0;
+}
+
+span {
+  color: #ff6d6a;
+}
+
+.all {
+  margin-left:5em;
+  margin-right:10em;
+  margin-top: 1em;
+  position: relative;
+}
+
+.title {
+  font-family: 'Cyrvetica Extra Outline', arial;
+  font-size: 60px;
+  color: #ff6d6a;
+}
+
+.text {
+  font-family: 'Prata', serif;
+  font-size: 18px;
+  color: #363151;
+  margin-top:20px;
+}
+
+.wave {
+  margin-top:40px;
+  margin-bottom:55px;
+}
+
+.back {
+      position: fixed; /* Fixed/sticky position */
+     top: 20px; /* Place the button at the bottom of the page */
+     left: 20px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */  
+     opacity: .75;
+  transition: 0.1s linear;
+    }
+
+.back:hover {
+  opacity: 1;
+}

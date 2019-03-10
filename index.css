@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("main2.png");
+  background-size: cover;
+}
+
+.topnav {
+  margin: 0 auto;
+}
+
+#first {
+  margin-left: 3.8em;
+
+}
+
+#second {
+  margin-left: 0em;
+  border-left: 1px solid #6038ae;
+
+}
+
+#third {
+  margin-left: 0em;
+  border-left: 1px solid #6038ae;
+
+}
+
+
+ul {
+  list-style-type: none;
+  position: absolute;
+  margin: 0 auto;
+  margin-top:23%;
+  padding: 0 ;
+  overflow: hidden;
+  background-image: linear-gradient(75deg, #fff5ec, #fff5ec);
+  height: 110px;
+  width: 100%;
+}
+
+li {
+  border-right: 0px solid #6038ae;
+  float: left;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: #6038ae;
+  text-align: center;
+  padding: 23px 35px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: 'Oranienbaum', serif;
+  background-image: linear-gradient(75deg, #fff5ec, #fff5ec);
+}
+
+li a:hover {  
+  
+  background-image: url("2.png");
+  background-size: cover;
+ <!-- background-color: #f5ef60; -->
+  
+}

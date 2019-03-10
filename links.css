@@ -1,0 +1,82 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  background-color: #fffbf7;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant|Kelly+Slab|Oranienbaum|PT+Mono|Podkova|Prata|Roboto+Slab:100&subset=cyrillic,cyrillic-ext');
+
+a {
+  margin-left: 3em;
+  text-decoration: none;
+  color: #6038ae ;
+  transition: 0.15s linear;
+}
+
+.a {
+  position: relative;
+  
+}
+
+a:hover {
+  color: #ff6d6a;
+}
+
+.kinsi {
+  margin-top: 1.5em;
+  font-family: 'Oranienbaum', serif;
+  font-size: 55px;
+  margin-left: 4em;
+} 
+
+.homo {
+  font-family: 'Prata', serif;
+  font-size: 30px;
+}
+
+.queer {
+  margin-left: 6em;
+  font-family: 'Podkova', serif;
+  font-size: 45px;
+}
+
+.why {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 30px;
+}
+
+.illuminator {
+  margin-left: 8em;
+  font-family:'PT Mono', monospace;
+  font-size: 35px;
+}
+
+.web {
+  font-family: 'Oranienbaum', serif;
+  font-size: 70px;
+}
+
+.dito {
+  margin-left: 6.3em;
+  font-family: 'Kelly Slab';
+  font-size: 40px;
+}
+
+.hse {
+  font-family: 'Roboto Slab', cursive;
+  font-size: 40px;
+}
+
+.cross {
+      position: fixed; /* Fixed/sticky position */
+     top: 30px; /* Place the button at the bottom of the page */
+     left: 0px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */  
+     opacity: .7;
+  transition: 0.1s linear;
+    }
+
+.cross:hover {
+  opacity: 1;
+}
+

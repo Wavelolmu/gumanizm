@@ -1,0 +1,166 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  background-color: #fffbf7;
+}
+
+@font-face {
+  font-family: 'Cyrvetica Extra Outline';
+  src: url('allfont.ru/allfont.css?fonts=cyrvetica-extra-outline');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@import url('https://fonts.googleapis.com/css?family=Prata&subset=cyrillic,cyrillic-ext');
+@import url('https://www.xfont.ru/font/PalatinoLinotypeRegular_7595.htm');
+
+span {
+  color: #ff6d6a;
+}
+#slot {
+  margin-left:5em;
+}
+
+.headliner {
+  margin-left: 18em;
+  margin-right: 18em;
+}
+
+
+.everything {
+  margin-left: 18em;
+  margin-right: 18em;
+}
+
+.special {
+  margin-left: 11em;
+  margin-right: 11em;
+  color: #ff6d6a;
+  font-size:19px;
+  font-family:'Prata', serif;
+  line-height: 32px;
+}
+
+.headline {
+  font-family: 'Prata', arial;
+  font-size: 60px;
+  margin-bottom:1em;
+  color: #ff6d6a;
+  line-height: 60px;
+}
+
+.semiheadliner {
+  margin-top: 4em;
+  margin-left: 9.5em;
+  margin-right: 4em;
+  font-size: 30px;
+  font-family: 'Prata', serif;
+  color: #ff6d6a;
+}
+
+.semiheadlinera {
+  margin-top: 2em;
+  margin-left: 9.5em;
+  margin-right: 4em;
+  font-size: 30px;
+  font-family: 'Prata', serif;
+  color: #ff6d6a;
+}
+
+
+
+.everything p {
+  font-size:19px;
+  font-family:'Prata', serif;
+  line-height: 32px;
+  color: #363151;
+}
+
+.quote {
+  margin-left: 13em;
+  margin-right:13em;
+}
+.quote p {
+  font-size:21px;
+  font-family: 'Prata';
+  line-height: 35px;
+  color: #ff6d6a;
+}
+
+.lgbt {
+  line-height: 1px;
+  margin-bottom:0.8em;
+  margin-left: 4.7em;
+  font-family: 'Prata'; 
+  font-size:60px;
+  color:#ff6d6a;
+}
+
+.flags {
+  margin-left: 18em;
+  margin-right: 18em;
+  margin-top: 3.5em;
+}
+
+.last {
+  margin-bottom: 130px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #fff5ec;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #f5ef60;
+  width: 0%;
+}
+
+.wave {
+  margin-top: 4em;
+  margin-left: 10em;
+}
+
+#myBtn {
+    position: fixed; /* Fixed/sticky position */
+    top: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    background-color: transparent;
+}
+
+.cross {
+      position: fixed; /* Fixed/sticky position */
+     top: 30px; /* Place the button at the bottom of the page */
+     left: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */  
+     opacity: .22;
+  transition: 0.1s linear;
+    }
+
+button {
+  opacity: .22;
+  transition: 0.1s linear;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cross:hover {
+  opacity:1;
+}
